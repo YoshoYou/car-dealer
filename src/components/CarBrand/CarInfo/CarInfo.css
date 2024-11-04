@@ -1,0 +1,48 @@
+.car-info {
+    display: flex;
+    flex-direction: row;
+    align-items: c;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.car-info .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.car-info .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.car-info p {
+    margin: 0;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.car-info img {
+width: 22px;
+height: 22px;
+padding-right: 15px;
+}
+.source {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
+@media (max-width:410px){
+    .car-info {
+        justify-content: flex-start;
+    }
+    .car-info p {
+        font-size: 10px;
+    }
+}

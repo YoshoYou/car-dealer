@@ -1,11 +1,12 @@
 import React from 'react'
 import './MainLanding.css'
-// import {  Bmw, Lamborghini, Mercedes, Volvo } from '../../assets/export';
 import { Cards, CarLogo } from '../../data/data';
 import { CardInfo } from '../CardInfo/CardInfo';
+import { MobileSlide } from '../MobileSlide/MobileSlide';
 export const MainLanding = () => {
     return (
         <div className='main'>
+            <MobileSlide  item={CarLogo.map((c)=>(c.img))}  className="slide" />
             <div className="logo">
                 {
                     CarLogo.map( ( carLogo ) => (

@@ -1,0 +1,61 @@
+.mobile-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-type:x mandatory ;
+    position: relative;
+    padding-top: 3rem;
+}
+.arrow.left {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin: 10px;
+    z-index: 100;
+}
+.arrow.right {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin: 10px;
+    z-index: 100;
+}
+.car-show .arrow.left {
+    left: -50px;
+}
+.car-show .arrow.right {
+        right: -50px;
+}
+.arrow:hover {
+    cursor: pointer;
+}
+.slide div {
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.1));
+    width: 250px;
+    height: 200px;
+}
+.slide {
+    display: flex;
+    flex-direction: row;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    width: 250px;
+    overflow-x: scroll;
+}
+.slide img {
+width: 250px;
+height: 200px;
+
+align-self: center;
+}
+::-webkit-scrollbar {
+display: none;
+}
+@media (max-width:400px) {
+    .mobile-container {
+        display: flex;
+    }
+}

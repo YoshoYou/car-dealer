@@ -2,7 +2,7 @@ import React from 'react'
 import './CarBrand.css'
 import { Cars } from '../../data/data';
 import { CarShow } from './CarShow/CarShow';
-import { CarInfo } from './CarInfo/CarInfo';
+// import { CarInfo } from './CarInfo/CarInfo';
 import { AccountInfo } from './AccountInfo/AccountInfo';
 export const CarBrand = () => {
     return (

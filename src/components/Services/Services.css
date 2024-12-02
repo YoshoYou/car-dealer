@@ -1,0 +1,289 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin:3rem;
+    padding: 2rem;
+    background-color: #efecf2;
+}
+.services .up {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.services .up .left {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width:75%;
+    flex-wrap: wrap;
+}
+.services .up .left .serv {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.services .up .left .station {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+    width: 100%;
+}
+.services .up .left p {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+}
+.services .up .left .book {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem;
+    gap: 4rem;
+}
+.services .up .left .book p {
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+}
+.services .up .left .book p::before {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    left: -22px;
+}
+.services .up .left .book .red::before {
+    background-color: #ff5d5d;
+}
+.services .up .left .book .pink::before {
+    background-color: #ff18e8;
+}
+.services .up .left .station p {
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10%;
+    color: #ff5d5d;
+}
+.services .up .left .order {
+    width: 100%;
+}
+.services .up .left .order .order-content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.services .up .left .order .order-content .left img {
+    width: 200px;
+}
+.services .up .left .order .order-content .left {
+    background-color: #fff;
+    width: fit-content;
+    padding: 1rem 4rem 4rem 4rem;
+    border-radius: 10%;
+}
+.services .up .left .order .order-content .left p {
+    font-weight: 600;
+    font-size: 35px;
+    padding: 0;
+    margin: 1rem;
+    text-align: center;
+    color: #616060;
+    width: 100%;
+}
+.services .up .left .order .order-content .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.services .up .left .order .order-content .info p {
+    font-size: 30px;
+    font-weight: normal;
+    background-color: #fff;
+    padding: 15px;
+    margin: 0;
+    border-radius: 20px;
+    width: 50%;
+    margin-bottom: 3rem;
+}
+.services .up .left .order .button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.services .up .left .order .button button {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 2rem 0;
+    background-color: #b22ea5;
+    border: none;
+    cursor: pointer;
+}
+.services .up .left .order .button button:hover {
+    background-color: #e26bd6;
+}
+.services .up .right p {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+.services .up .right .sign-out {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 10px;
+    right: 20px;
+}
+.services .up .right .pop {
+    font-size: 15px;
+    width: fit-content;
+    height: fit-content;
+    padding: 6px;
+    color: #000;
+}
+
+.services .up .right .require {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.services .up .right .require .frame {
+    margin-bottom: 1rem;
+}
+.services .up .right .require .frame p:first-of-type {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #616060;
+}
+.services .up .right .require .frame p {
+    padding: 0;
+    font-weight: normal;
+    font-size: 20px;
+}
+.services .down {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 2rem 0;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 10px;
+}
+.services .down .material {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.services .down .material::after {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    left: 0;
+    height: 5px;
+}
+.services .down .material.y::after {
+    width: 75%;
+    background-color: yellow;
+}
+.services .down .material.r::after {
+    width: 20%;
+    background-color: red;
+}
+.services .down .material.o::after {
+    width: 60%;
+    background-color: orangered;
+}
+.services .down .material img {
+    width: 100px;
+}
+.services .down .material p:first-of-type {
+    font-weight: 600;
+    font-size: 20px;
+    color: #000;
+    padding: 0;
+    margin: 1rem 0;
+} 
+.services .down .material p {
+    font-weight: normal;
+    font-size: 17px;
+    color: #616060;
+    padding: 0;
+    margin: 0;
+}
+@media (max-width:900px){
+    .services .up {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .services .up .left p {
+        text-align: center;
+        margin: 3rem 0;
+        font-size: 30px;
+        width: 100%;
+    }
+    .services .up .left .serv {
+        justify-content: center;
+    }
+    .services .up .left .order .order-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services .up .left .order .order-content .info p {
+        width: 100%;
+    }
+    .services .down {
+        flex-direction: column;
+        gap: 3rem;
+        width: fit-content;
+    }
+    .services {
+        padding: 0;
+        padding-top: 1rem;
+        margin: 0;
+    }
+    
+.services .up .left .book {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.services .up .left .order .order-content .info {
+    align-items: center;
+}
+.services .up .right p {
+    font-size: 30px;
+}
+.services .up .left .order .order-content .left {
+    padding: 2rem;
+}
+}
+
+
+
+

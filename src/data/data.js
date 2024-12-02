@@ -44,6 +44,92 @@ export const Cards = [
     },
 
 ];
+export const Service = [
+    {
+        a: 'A1',
+        bg:"#ff5d5d"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#ff5d5d"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#fff"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#fff"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#fff"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#fff"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#fff"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#fff"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#fff"
+        
+     },
+    {
+        a: 'A1',
+        bg:"#fff"
+        
+     },
+    {
+        a: 'B1',
+        bg:'#fff'
+    },
+    {
+        a: 'B1',
+        bg:'#fff'
+    },
+    {
+        a: 'B1',
+        bg:'#ff5d5d'
+    },
+
+    {
+        a: 'B1',
+        bg:'#ff18e8'
+    },
+    {
+        a: 'B1',
+        bg:'#fff'
+    },
+    {
+        a: 'B1',
+        bg:'#fff'
+    },
+    {
+        a: 'B1',
+        bg:'#fff'
+    },
+    {
+        a: 'B1',
+        bg:'#fff'
+    },
+
+]
 export const CarLogo = [
     {
         img:`${Lamborghini}`
@@ -115,5 +201,25 @@ export const Cars = [
         price: "$60,000",
         main: `${ Volvo1 }`,
         images: [ `${ Volvo2 }`, `${ Volvo3 }`, `${ Volvo4 }`, `${ Volvo5 }`, `${ Volvo6 }`, `${ Volvo7 }`, `${ Volvo8 }`, `${ Volvo9 }` ]
+    }
+];
+export const Personal = [
+    {
+        title: "Profile",
+        subTitle: "Update your photo and personal details here.",
+        cityLabele: "Live in",
+        city: "Zuchi, Switzerland",
+        streetLabele: "Street Address",
+        street: "242",
+        Email:"Email Address",
+    },
+    {
+        title:"Deatails",
+        subTitle: "",
+        cityLabele: "",
+        city: "",
+        streetLabele: " ",
+        street: "",
+        Email:"",
     }
 ];

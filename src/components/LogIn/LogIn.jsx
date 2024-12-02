@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './LogIn.css'
 import { logo } from '../../assets/export';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 export const LogIn = () =>
 {
     const [ mood, setMood ] = useState( "Log In" );
@@ -26,7 +27,8 @@ export const LogIn = () =>
                     <input id='e-mail' type="email" placeholder=' Enter Your Email' required/>
                     <label htmlFor="pass-word">Enter Your Password</label>
                     <input id='pass-word' type="password" placeholder='Password'    required />
-                    <button type="submit" ><a href="/content">{mood}</a></button>
+                    {/* <input type="file" onChang={fileSeletedHandler}   /> */}
+                    <button type="submit" ><Link to="/content">{mood}</Link></button>
                 </form>
             </div>
         </div>

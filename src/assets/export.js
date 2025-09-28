@@ -62,4 +62,6 @@ import car_show from './new_car_showroom.webp'
 import fuel from './fuel.png'
 import gearbox from './gearbox.png'
 import mile from './mile.png'
-export {mile, gearbox,fuel,carside,callender,Lam_show,phone,dollar,mail,location,flash,photo,show_room,car_show,logo,Group,Line,Shape,bag,dashboard,Bmw,carlogo,lamborghini,setting,search,sign_out,bell,self_img,Lamborghini,Mercedes,Volvo,img1,img2,img3,img4,img5,img6,Lmb1,Lmb2,Lmb3,Lmb4,Lmb5,Lmb6,Lmb7,Lmb8,Lmb9,Volvo1,Volvo2,Volvo3,Volvo4,Volvo5,Volvo6,Volvo7,Volvo8,Volvo9,Bmw1,Bmw2,Bmw3,Bmw4,Bmw5,Bmw6,Bmw7,Bmw8,Bmw9 };
+import time from './time.png'
+import oil_level from './oil_level.png'
+export {mile,oil_level,time, gearbox,fuel,carside,callender,Lam_show,phone,dollar,mail,location,flash,photo,show_room,car_show,logo,Group,Line,Shape,bag,dashboard,Bmw,carlogo,lamborghini,setting,search,sign_out,bell,self_img,Lamborghini,Mercedes,Volvo,img1,img2,img3,img4,img5,img6,Lmb1,Lmb2,Lmb3,Lmb4,Lmb5,Lmb6,Lmb7,Lmb8,Lmb9,Volvo1,Volvo2,Volvo3,Volvo4,Volvo5,Volvo6,Volvo7,Volvo8,Volvo9,Bmw1,Bmw2,Bmw3,Bmw4,Bmw5,Bmw6,Bmw7,Bmw8,Bmw9 };

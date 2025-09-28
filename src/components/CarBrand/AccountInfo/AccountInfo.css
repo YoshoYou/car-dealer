@@ -20,6 +20,20 @@
     align-items: center;
     gap: 28px;
     margin: 1rem;
+    width: fit-content;
+    padding: 0;
+}
+.account-info .top .info button {
+    border: 3px solid #7a7878b7;
+    cursor: pointer;
+    font-size: 17px;
+    color: #000;
+    padding: 10px;
+
+}
+.account-info .top .info button:hover {
+    background-color: #ffff;
+    font-size: 20px;
 }
 .account-info .top .info .personal {
 display: flex;

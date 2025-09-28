@@ -2,6 +2,7 @@ import React from 'react'
 import './AccountInfo.css'
 import { CarInfo } from '../CarInfo/CarInfo';
 import { flash, location, mail, phone, photo } from '../../../assets/export';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 export const AccountInfo = ( { car } ) => {
   return (
     <div className='account-info'>
@@ -11,11 +12,12 @@ export const AccountInfo = ( { car } ) => {
             <div className="personal">
                     <p>Eric Colwell</p>
                     <p>Account opening date :26 june,2024</p>
-            </div>
+          </div>
+          <Link to="/services"> <button>Buy Now</button> </Link>
         </div>
         <div className="bottom">
           <p><img src={location} alt="" /> California, USA</p>
-          <p><img src={flash} alt="" />Pro Account <span>Visit Profile</span></p>
+          <p><img src={flash} alt="" />Pro Account</p>
         </div>
         <div className="contact">
           <div className="contain">
